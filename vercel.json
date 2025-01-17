@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "create-transaction.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "MIDTRANS_SERVER_KEY": "Mid-server-8zDXqPlY6xeEztrfW1dsvIjL"
+  }
+}
